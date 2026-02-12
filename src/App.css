@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Rapunled';
+  src: url('/fonts/Rapunled.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'StylishScript';
+  src: url('/fonts/Stylish Handwriting Script .otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Havana';
+  src: url('/fonts/Havana.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Healing';
+  src: url('/fonts/HealingBestieDemoRegular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PlaywriteNZBasic';
+  src: url('/fonts/Playwrite_NZ_Basic/PlaywriteNZBasic-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;
+}
+
 html,
 body,
 #root {
@@ -9,7 +39,8 @@ body,
 
 body {
   min-height: 100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
   background: #000;
   color: #f8e6ff;
 }
@@ -145,17 +176,13 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 96px;
-  height: 96px;
-  border-radius: 999px;
-  background: radial-gradient(circle at 30% 20%, #ff8ad6, #ff4b8b);
-  box-shadow: 0 0 25px rgba(255, 105, 180, 0.65);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.8rem;
-  color: #fff;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+  /* no extra shapes or borders, just the GIF itself */
+}
+
+.gif-slot img {
+  display: block;
+  max-width: 130px;
+  height: auto;
 }
 
 .gif-ring {
@@ -169,11 +196,26 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+  max-width: 720px;
+  text-align: center;
 }
 
 .question-text {
   margin-bottom: 0;
+  line-height: 1.3;
+  font-family: 'Rapunled', 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
+}
+
+.beg-message {
+  margin: 0;
+  margin-top: 0.25rem;
+  font-size: 1.1rem;
+  color: #ffbde3;
+  font-family: 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
 }
 
 .schedule-card {
@@ -191,12 +233,16 @@ body {
   margin: 0 0 0.75rem;
   font-size: clamp(2.3rem, 4.4vw, 3rem);
   color: #ffbde3;
+  font-family: 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
 }
 
 .yaaay-subtitle {
   margin: 0 0 2rem;
   font-size: 1.05rem;
   color: #f3c8ff;
+  font-family: 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
 }
 
 .schedule {
@@ -210,12 +256,16 @@ body {
   margin: 0 0 0.35rem;
   font-size: 1.15rem;
   color: #ffe0f6;
+  font-family: 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
 }
 
 .schedule-item p {
   margin: 0;
   font-size: 0.98rem;
   color: #f3c8ff;
+  font-family: 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
 }
 
 .back-btn {
