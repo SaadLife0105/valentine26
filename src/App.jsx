@@ -35,7 +35,7 @@ function App() {
     setNoHoverCount((count) => count + 1)
 
     // Pick a big random offset so the button moves far away
-    const maxOffset = 260
+    const maxOffset = 120
     const minOffset = 120
 
     const randomSign = () => (Math.random() > 0.5 ? 1 : -1)
