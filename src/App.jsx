@@ -134,6 +134,7 @@ function App() {
             className="btn no"
             style={{ transform: noTransform }}
             onMouseEnter={runAwayNo}
+            onTouchStart={runAwayNo}
           >
             No
           </button>
