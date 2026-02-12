@@ -52,33 +52,41 @@ function App() {
     return (
       <div className="valentine-page">
         <div className="schedule-card">
-          <h1 className="yaaay-title">YAAAYYY! 💖</h1>
+          <h1 className="yaaay-title">YAAAAAAAYYY!!!!!! 😁😁</h1>
           <p className="yaaay-subtitle">
-            I&apos;m so happy you said yes. Here&apos;s our little Valentine&apos;s adventure:
+            PRAISE THE LORDS. Here's the schedule for our first VALENTINE'S DATE:
           </p>
 
           <div className="schedule">
             <div className="schedule-item">
-              <h2>1. Slow morning together</h2>
-              <p>Lazy wake up, hugs, and your favorite breakfast to start the day softly.</p>
+              <h2>1. KISS KISS</h2>
+              <p>We meet at the bus station of rh and then lots and lots and lots and lots of kisses when we meet first. eheh</p>
             </div>
             <div className="schedule-item">
-              <h2>2. Cute daytime date</h2>
+              <h2>2. KAREOKE</h2>
               <p>
-                A walk, some photos, maybe coffee or hot chocolate &mdash; just us enjoying the day.
+                We go to tribecca and then we JUMP IN THE KAREOKE BOX.
               </p>
             </div>
             <div className="schedule-item">
-              <h2>3. Special evening plan</h2>
-              <p>Dinner, surprises, and way too much sweetness (from both dessert and me).</p>
+              <h2>3. WE EAT ANYTHING</h2>
+              <p>A nice big lunch for the both of us eheh, i am thinking some chinese stuff, i dont remember the name apologies.</p>
             </div>
             <div className="schedule-item">
-              <h2>4. Cozy night in</h2>
+              <h2>4. LEAGUEEEEEE</h2>
               <p>
-                Movies, cuddles, and ending the day exactly how we like it: together and comfy.
+                Since cyber room is offering the 2x thing on all PC stuff, let us indulge in some gamimg, even if it is too much time we keep it for next time, PROGRAM.
               </p>
+            </div>
+            <div className="schedule-item">
+              <h2>5. the sad return 😭</h2>
+              <p>We finish by big fat kisses and anything else you need before we go back home. (hopefully i live)</p>
             </div>
           </div>
+
+          <p className="schedule-note">
+            ps: any of the plans may be subject to change AKZ SA BAN PLN P ALLE MARSER GRAND BASSIN LA FLMM.
+          </p>
 
           <button className="btn back-btn" onClick={() => setPage('main')}>
             &larr; Back to the question
@@ -107,6 +115,7 @@ function App() {
       </div>
 
       <div className="question-wrapper">
+        <img src="/happy-day.gif" alt="Happy day" className="happy-day-gif" />
         <h1 id="question" className="valentine-title question-text">
           Sneha Beeltah,
           <br />

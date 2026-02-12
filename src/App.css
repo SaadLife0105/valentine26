@@ -202,6 +202,12 @@ body {
   text-align: center;
 }
 
+.happy-day-gif {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
 .question-text {
   margin-bottom: 0;
   line-height: 1.3;
@@ -264,6 +270,14 @@ body {
   margin: 0;
   font-size: 0.98rem;
   color: #f3c8ff;
+  font-family: 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+}
+
+.schedule-note {
+  margin-top: 1.75rem;
+  font-size: 0.8rem;
+  color: #ff4b8b;
   font-family: 'PlaywriteNZBasic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     sans-serif;
 }
